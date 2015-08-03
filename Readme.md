@@ -1,10 +1,8 @@
 ## What kind of syslog-ng docker images are exist
+* `balabit/syslog-ng`: syslog-ng is installed in a fresh Debian 8 (Jessie) operation system. This docker image is for to use syslog-ng as system logging service.
+* `balabit/syslog-ng-dev`: development image. This image based on also a fresh Debian 8 (Jessie). This image is not contain syslog-ng, it only contains all packages to build and debug syslog-ng within the container.
 
-  * There are two types of docker images:
-     * balabit/syslog-ng image where syslog-ng is installed in a fresh Debian 8 (Jessie) operation system from (official) deb package. This docker image is for to use syslog-ng as system logging service.
-     * balabit/syslog-ng-dev development image. This image based on also a fresh Debian 8 (Jessie). This image is not contain syslog-ng, it only contains all packages to build and debug syslog-ng within the container.
-
-  * Later we will describe how to use each of this images in a various cases.
+Later we will describe how to use each of this images in a various cases.
 
 ## What is balabit/syslog-ng image and what provide it to us
   * This image provides an installed syslog-ng from deb package with its all modules (also incubator) and dependencies
