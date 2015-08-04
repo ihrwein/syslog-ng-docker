@@ -8,6 +8,10 @@ The following ports are exposed:
     * Syslog TCP: 601,
     * Syslog TLS: 6514
 
+Syslog-ng will listen on these ports and forwards the logs into the file
+`/var/log/syslog`. You can check the default configuration in the source
+repository of this image.
+
 Please check the syslog-ng image tags at the official docker repository to know what image versions exist  [https://registry.hub.docker.com/u/balabit]
 
 ## Using default configuration
