@@ -1,4 +1,4 @@
-# `balabit/syslog-ng-dev` image
+# `balabit/syslog-ng-dev`
 This image provides a development environment to build and install syslog-ng from source. You have to clone the source
 code of [syslog-ng ](https://github.com/balabit/syslog-ng.git) into a directory on your host machine then you can mount it
 into the container (under `/source`).

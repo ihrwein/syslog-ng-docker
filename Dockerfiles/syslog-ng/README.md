@@ -1,4 +1,4 @@
-# `balabit/syslog-ng` image
+# `balabit/syslog-ng`
   * Syslog-ng is installed with all of its modules (incubator modules included)
   * Within the container syslog-ng will start in foreground. This is useful because if there is some error with syslog-ng we can easily check the output console log through the `docker logs [containerID]` command
   * You can use your own `syslog-ng.conf` or fall back to use the default one
